@@ -3,7 +3,7 @@ package com.bridgelabz.snakeandladder;
 public class SnakeAndLadder {
 	final static int source =0;
 	final static int destination =100;
-//UC5- ensuring exact winning position of 100th position
+//UC6-reporting how many times dice roll for winning position
 	public static void main(String[] args) {
 		System.out.println("Welcome to Snake and Ladder Game");
 		int position =0;
@@ -38,7 +38,9 @@ public class SnakeAndLadder {
             } else {
                 System.out.println("New Position: " + position);
             }
-			System.out.println("You won the game."); 
+			
 			}
+		System.out.println("You won the game.");
+		System.out.println("Number of times diceroll is:" +diceRoll); 
 	}}
 	
